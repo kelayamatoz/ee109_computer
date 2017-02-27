@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/altera_reset_controller.v"
+   type="VERILOG"
+   library="rst_controller" />
+ <file
+   path="simulation/submodules/altera_reset_synchronizer.v"
+   type="VERILOG"
+   library="rst_controller" />
+ <file
+   path="simulation/submodules/altera_reset_controller.sdc"
+   type="SDC"
+   library="rst_controller" />
+ <file
+   path="simulation/submodules/altera_up_video_scaler_shrink.v"
+   type="VERILOG"
+   library="Video_In_Scaler" />
+ <file
+   path="simulation/submodules/altera_up_video_scaler_multiply_width.v"
+   type="VERILOG"
+   library="Video_In_Scaler" />
+ <file
+   path="simulation/submodules/altera_up_video_scaler_multiply_height.v"
+   type="VERILOG"
+   library="Video_In_Scaler" />
+ <file
+   path="simulation/submodules/Video_In_Subsystem_dev_Video_In_Scaler.v"
+   type="VERILOG"
+   library="Video_In_Scaler" />
+ <file
+   path="simulation/submodules/Video_In_Subsystem_dev_Video_In_RGB_Resampler.v"
+   type="VERILOG"
+   library="Video_In_RGB_Resampler" />
+ <file
+   path="simulation/submodules/altera_up_video_dma_control_slave.v"
+   type="VERILOG"
+   library="Video_In_DMA" />
+ <file
+   path="simulation/submodules/altera_up_video_dma_to_memory.v"
+   type="VERILOG"
+   library="Video_In_DMA" />
+ <file
+   path="simulation/submodules/altera_up_video_dma_to_stream.v"
+   type="VERILOG"
+   library="Video_In_DMA" />
+ <file
+   path="simulation/submodules/Video_In_Subsystem_dev_Video_In_DMA.v"
+   type="VERILOG"
+   library="Video_In_DMA" />
+ <file
+   path="simulation/submodules/altera_up_video_clipper_add.v"
+   type="VERILOG"
+   library="Video_In_Clipper" />
+ <file
+   path="simulation/submodules/altera_up_video_clipper_drop.v"
+   type="VERILOG"
+   library="Video_In_Clipper" />
+ <file
+   path="simulation/submodules/altera_up_video_clipper_counters.v"
+   type="VERILOG"
+   library="Video_In_Clipper" />
+ <file
+   path="simulation/submodules/Video_In_Subsystem_dev_Video_In_Clipper.v"
+   type="VERILOG"
+   library="Video_In_Clipper" />
+ <file
+   path="simulation/submodules/Video_In_Subsystem_dev_Video_In_Chroma_Resampler.v"
+   type="VERILOG"
+   library="Video_In_Chroma_Resampler" />
+ <file
+   path="simulation/submodules/altera_up_YCrCb_to_RGB_converter.v"
+   type="VERILOG"
+   library="Video_In_CSC" />
+ <file
+   path="simulation/submodules/altera_up_RGB_to_YCrCb_converter.v"
+   type="VERILOG"
+   library="Video_In_CSC" />
+ <file
+   path="simulation/submodules/Video_In_Subsystem_dev_Video_In_CSC.v"
+   type="VERILOG"
+   library="Video_In_CSC" />
+ <file
+   path="simulation/submodules/altera_up_video_itu_656_decoder.v"
+   type="VERILOG"
+   library="Video_In" />
+ <file
+   path="simulation/submodules/altera_up_video_decoder_add_endofpacket.v"
+   type="VERILOG"
+   library="Video_In" />
+ <file
+   path="simulation/submodules/altera_up_video_camera_decoder.v"
+   type="VERILOG"
+   library="Video_In" />
+ <file
+   path="simulation/submodules/altera_up_video_dual_clock_fifo.v"
+   type="VERILOG"
+   library="Video_In" />
+ <file
+   path="simulation/submodules/Video_In_Subsystem_dev_Video_In.v"
+   type="VERILOG"
+   library="Video_In" />
+ <file path="simulation/Video_In_Subsystem_dev.v" type="VERILOG" />
+ <topLevel name="Video_In_Subsystem_dev" />
+ <deviceFamily name="cyclonev" />
+</simPackage>

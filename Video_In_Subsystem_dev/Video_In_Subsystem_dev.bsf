@@ -1,0 +1,205 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 608 400)
+	(text "Video_In_Subsystem_dev" (rect 227 -1 336 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 384 20 396)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "sys_clk_clk" (rect 0 0 48 12)(font "Arial" (font_size 8)))
+		(text "sys_clk_clk" (rect 4 61 70 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 240 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "sys_reset_reset_n" (rect 0 0 77 12)(font "Arial" (font_size 8)))
+		(text "sys_reset_reset_n" (rect 4 101 106 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 240 112)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(input)
+		(text "video_in_TD_CLK27" (rect 0 0 87 12)(font "Arial" (font_size 8)))
+		(text "video_in_TD_CLK27" (rect 4 141 106 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 240 152)(line_width 1))
+	)
+	(port
+		(pt 0 168)
+		(input)
+		(text "video_in_TD_DATA[7..0]" (rect 0 0 107 12)(font "Arial" (font_size 8)))
+		(text "video_in_TD_DATA[7..0]" (rect 4 157 136 168)(font "Arial" (font_size 8)))
+		(line (pt 0 168)(pt 240 168)(line_width 3))
+	)
+	(port
+		(pt 0 184)
+		(input)
+		(text "video_in_TD_HS" (rect 0 0 70 12)(font "Arial" (font_size 8)))
+		(text "video_in_TD_HS" (rect 4 173 88 184)(font "Arial" (font_size 8)))
+		(line (pt 0 184)(pt 240 184)(line_width 1))
+	)
+	(port
+		(pt 0 200)
+		(input)
+		(text "video_in_TD_VS" (rect 0 0 71 12)(font "Arial" (font_size 8)))
+		(text "video_in_TD_VS" (rect 4 189 88 200)(font "Arial" (font_size 8)))
+		(line (pt 0 200)(pt 240 200)(line_width 1))
+	)
+	(port
+		(pt 0 216)
+		(input)
+		(text "video_in_clk27_reset" (rect 0 0 84 12)(font "Arial" (font_size 8)))
+		(text "video_in_clk27_reset" (rect 4 205 124 216)(font "Arial" (font_size 8)))
+		(line (pt 0 216)(pt 240 216)(line_width 1))
+	)
+	(port
+		(pt 0 288)
+		(input)
+		(text "video_in_dma_control_slave_address[1..0]" (rect 0 0 172 12)(font "Arial" (font_size 8)))
+		(text "video_in_dma_control_slave_address[1..0]" (rect 4 277 244 288)(font "Arial" (font_size 8)))
+		(line (pt 0 288)(pt 240 288)(line_width 3))
+	)
+	(port
+		(pt 0 304)
+		(input)
+		(text "video_in_dma_control_slave_byteenable[3..0]" (rect 0 0 184 12)(font "Arial" (font_size 8)))
+		(text "video_in_dma_control_slave_byteenable[3..0]" (rect 4 293 262 304)(font "Arial" (font_size 8)))
+		(line (pt 0 304)(pt 240 304)(line_width 3))
+	)
+	(port
+		(pt 0 320)
+		(input)
+		(text "video_in_dma_control_slave_read" (rect 0 0 139 12)(font "Arial" (font_size 8)))
+		(text "video_in_dma_control_slave_read" (rect 4 309 190 320)(font "Arial" (font_size 8)))
+		(line (pt 0 320)(pt 240 320)(line_width 1))
+	)
+	(port
+		(pt 0 336)
+		(input)
+		(text "video_in_dma_control_slave_write" (rect 0 0 139 12)(font "Arial" (font_size 8)))
+		(text "video_in_dma_control_slave_write" (rect 4 325 196 336)(font "Arial" (font_size 8)))
+		(line (pt 0 336)(pt 240 336)(line_width 1))
+	)
+	(port
+		(pt 0 352)
+		(input)
+		(text "video_in_dma_control_slave_writedata[31..0]" (rect 0 0 179 12)(font "Arial" (font_size 8)))
+		(text "video_in_dma_control_slave_writedata[31..0]" (rect 4 341 262 352)(font "Arial" (font_size 8)))
+		(line (pt 0 352)(pt 240 352)(line_width 3))
+	)
+	(port
+		(pt 608 88)
+		(input)
+		(text "video_in_dma_master_waitrequest" (rect 0 0 140 12)(font "Arial" (font_size 8)))
+		(text "video_in_dma_master_waitrequest" (rect 433 77 619 88)(font "Arial" (font_size 8)))
+		(line (pt 608 88)(pt 368 88)(line_width 1))
+	)
+	(port
+		(pt 0 232)
+		(output)
+		(text "video_in_TD_RESET" (rect 0 0 92 12)(font "Arial" (font_size 8)))
+		(text "video_in_TD_RESET" (rect 4 221 106 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 240 232)(line_width 1))
+	)
+	(port
+		(pt 0 248)
+		(output)
+		(text "video_in_overflow_flag" (rect 0 0 93 12)(font "Arial" (font_size 8)))
+		(text "video_in_overflow_flag" (rect 4 237 136 248)(font "Arial" (font_size 8)))
+		(line (pt 0 248)(pt 240 248)(line_width 1))
+	)
+	(port
+		(pt 0 368)
+		(output)
+		(text "video_in_dma_control_slave_readdata[31..0]" (rect 0 0 179 12)(font "Arial" (font_size 8)))
+		(text "video_in_dma_control_slave_readdata[31..0]" (rect 4 357 256 368)(font "Arial" (font_size 8)))
+		(line (pt 0 368)(pt 240 368)(line_width 3))
+	)
+	(port
+		(pt 608 72)
+		(output)
+		(text "video_in_dma_master_address[31..0]" (rect 0 0 152 12)(font "Arial" (font_size 8)))
+		(text "video_in_dma_master_address[31..0]" (rect 423 61 627 72)(font "Arial" (font_size 8)))
+		(line (pt 608 72)(pt 368 72)(line_width 3))
+	)
+	(port
+		(pt 608 104)
+		(output)
+		(text "video_in_dma_master_write" (rect 0 0 114 12)(font "Arial" (font_size 8)))
+		(text "video_in_dma_master_write" (rect 466 93 616 104)(font "Arial" (font_size 8)))
+		(line (pt 608 104)(pt 368 104)(line_width 1))
+	)
+	(port
+		(pt 608 120)
+		(output)
+		(text "video_in_dma_master_writedata[15..0]" (rect 0 0 154 12)(font "Arial" (font_size 8)))
+		(text "video_in_dma_master_writedata[15..0]" (rect 417 109 633 120)(font "Arial" (font_size 8)))
+		(line (pt 608 120)(pt 368 120)(line_width 3))
+	)
+	(drawing
+		(text "sys_clk" (rect 197 43 436 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 245 67 508 144)(font "Arial" (color 0 0 0)))
+		(text "sys_reset" (rect 183 83 420 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 245 107 532 224)(font "Arial" (color 0 0 0)))
+		(text "video_in" (rect 193 123 434 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "TD_CLK27" (rect 245 147 538 304)(font "Arial" (color 0 0 0)))
+		(text "TD_DATA" (rect 245 163 532 336)(font "Arial" (color 0 0 0)))
+		(text "TD_HS" (rect 245 179 520 368)(font "Arial" (color 0 0 0)))
+		(text "TD_VS" (rect 245 195 520 400)(font "Arial" (color 0 0 0)))
+		(text "clk27_reset" (rect 245 211 556 432)(font "Arial" (color 0 0 0)))
+		(text "TD_RESET" (rect 245 227 538 464)(font "Arial" (color 0 0 0)))
+		(text "overflow_flag" (rect 245 243 568 496)(font "Arial" (color 0 0 0)))
+		(text "video_in_dma_control_slave" (rect 75 259 306 531)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "address" (rect 245 283 532 576)(font "Arial" (color 0 0 0)))
+		(text "byteenable" (rect 245 299 550 608)(font "Arial" (color 0 0 0)))
+		(text "read" (rect 245 315 514 640)(font "Arial" (color 0 0 0)))
+		(text "write" (rect 245 331 520 672)(font "Arial" (color 0 0 0)))
+		(text "writedata" (rect 245 347 544 704)(font "Arial" (color 0 0 0)))
+		(text "readdata" (rect 245 363 538 736)(font "Arial" (color 0 0 0)))
+		(text "video_in_dma_master" (rect 369 43 852 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "address" (rect 331 67 704 144)(font "Arial" (color 0 0 0)))
+		(text "waitrequest" (rect 317 83 700 176)(font "Arial" (color 0 0 0)))
+		(text "write" (rect 345 99 720 208)(font "Arial" (color 0 0 0)))
+		(text "writedata" (rect 327 115 708 240)(font "Arial" (color 0 0 0)))
+		(text " Video_In_Subsystem_dev " (rect 490 384 1124 778)(font "Arial" ))
+		(line (pt 240 32)(pt 368 32)(line_width 1))
+		(line (pt 368 32)(pt 368 384)(line_width 1))
+		(line (pt 240 384)(pt 368 384)(line_width 1))
+		(line (pt 240 32)(pt 240 384)(line_width 1))
+		(line (pt 241 52)(pt 241 76)(line_width 1))
+		(line (pt 242 52)(pt 242 76)(line_width 1))
+		(line (pt 241 92)(pt 241 116)(line_width 1))
+		(line (pt 242 92)(pt 242 116)(line_width 1))
+		(line (pt 241 132)(pt 241 252)(line_width 1))
+		(line (pt 242 132)(pt 242 252)(line_width 1))
+		(line (pt 241 268)(pt 241 372)(line_width 1))
+		(line (pt 242 268)(pt 242 372)(line_width 1))
+		(line (pt 367 52)(pt 367 124)(line_width 1))
+		(line (pt 366 52)(pt 366 124)(line_width 1))
+		(line (pt 0 0)(pt 608 0)(line_width 1))
+		(line (pt 608 0)(pt 608 400)(line_width 1))
+		(line (pt 0 400)(pt 608 400)(line_width 1))
+		(line (pt 0 0)(pt 0 400)(line_width 1))
+	)
+)

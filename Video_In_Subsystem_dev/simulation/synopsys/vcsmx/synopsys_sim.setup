@@ -1,0 +1,20 @@
+
+WORK > DEFAULT
+DEFAULT:                   ./libraries/work/                     
+work:                      ./libraries/work/                     
+rst_controller:            ./libraries/rst_controller/           
+Video_In_Scaler:           ./libraries/Video_In_Scaler/          
+Video_In_RGB_Resampler:    ./libraries/Video_In_RGB_Resampler/   
+Video_In_DMA:              ./libraries/Video_In_DMA/             
+Video_In_Clipper:          ./libraries/Video_In_Clipper/         
+Video_In_Chroma_Resampler: ./libraries/Video_In_Chroma_Resampler/
+Video_In_CSC:              ./libraries/Video_In_CSC/             
+Video_In:                  ./libraries/Video_In/                 
+altera_ver:                ./libraries/altera_ver/               
+lpm_ver:                   ./libraries/lpm_ver/                  
+sgate_ver:                 ./libraries/sgate_ver/                
+altera_mf_ver:             ./libraries/altera_mf_ver/            
+altera_lnsim_ver:          ./libraries/altera_lnsim_ver/         
+cyclonev_ver:              ./libraries/cyclonev_ver/             
+cyclonev_hssi_ver:         ./libraries/cyclonev_hssi_ver/        
+cyclonev_pcie_hip_ver:     ./libraries/cyclonev_pcie_hip_ver/    
